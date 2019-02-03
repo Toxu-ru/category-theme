@@ -1,0 +1,95 @@
+body.navigation-categories {
+	
+.wrap {
+    max-width: 1256px;
+}	
+	
+  background: #f9f9f9;
+	
+.latest-topic-list-item .topic-poster {
+    width: 60px;
+    float: left;
+}
+
+.latest-topic-list-item .main-link {
+    display: inline-block;
+}	
+	
+.latest-topic-list-item .topic-stats {
+    display: inline-block;
+    float: right;
+
+}	
+.h-telo {
+    position: relative;
+    margin-bottom: 20px;
+}
+	
+.latest-topic-cat {
+	margin-bottom: 20px;
+	}	
+	
+.h-home {
+display: inline-block;
+color: #919191;
+font-weight: 400;
+font-size: 1em;
+text-transform: uppercase;	
+	}	
+	
+a.title-blog {
+    position: absolute;
+    color: #fff;
+    left: 5px;
+    top: 130px;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.4);
+}	
+	
+.topic-poster-cat {
+	border-bottom: 1px solid #e9e9e9;
+	padding: 8px 0 10px 0;
+	clear: both;
+	}	
+	
+ .cat-glav {
+  background: #fff;
+}	
+ .cat-telo {
+	float: left;
+	padding: 10px;
+	
+	img {
+	    margin-right: 15px;
+		width: 60px;
+		border-radius: 50px;
+	    float: left;
+	 }
+	 
+	 .title { float: left;
+	 
+	 margin-top: 13px;
+font-size: 18px;
+	 }
+	 
+	 
+}
+	
+ .banner-one img {
+     
+}
+	
+.cat-glav {
+
+    clear: both;
+
+}
+ .banner-two img,  .banner-three img,  .banner-four img  {
+    width: 346px;
+}
+	
+.banner-four  {
+    margin-top: 30px;
+}
+	
+}
