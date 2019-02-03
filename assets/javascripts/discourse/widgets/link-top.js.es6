@@ -19,7 +19,9 @@ export default createWidget('link-top', {
   var avatar_template;
   var ava;
  
+ 
   contents.push( new RawHtml({ html: `<div class="banner-one">${banner_one}</div>`})); 
+ 
  
   $.ajax({
   url: "/c/"+ nam_cat +".json",
@@ -45,6 +47,7 @@ export default createWidget('link-top', {
  uid = topics[t].posters[0].user_id;
  last_poster_username = topics[t].last_poster_username;
  
+ 
 var ava = avatarImg('small', {username: last_poster_username})
 
  console.log(ava);
@@ -55,3 +58,7 @@ var ava = avatarImg('small', {username: last_poster_username})
  
  }
  });
+    
+  return contents;
+
+}});
