@@ -1,0 +1,13 @@
+{{#if topics}}
+  {{#each topics as |t|}}
+    {{latest-topic-list-item-cat topic=t}}
+  {{/each}}
+  <div class="more-topics">
+    <a href="{{get-url (concat '/' filter)}}" class="btn btn-default pull-right">{{i18n "more"}}</a>
+  </div>
+{{else}}
+  <div class='no-topics'>
+    <h3>{{i18n (concat "topics.none." filter)}}</h3>
+  </div>
+{{/if}}
+	
