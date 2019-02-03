@@ -1,0 +1,16 @@
+{{#if categories}}
+{{if showTopics 'with-topics'}}
+{{#each categories as |c|}}
+<div class="cat-glav">
+        
+<div class="cat-telo">
+<a title="{{{dir-span c.name}}}" href="{{{dir-span c.url}}}">	
+<img src="{{{dir-span c.uploaded_logo.url}}}" alt="Раздел: {{{dir-span c.name}}}" class="logo-cat">	
+
+<div class="title">{{{dir-span c.name}}}</div>	
+</a>	
+</div>
+
+</div>	
+{{/each}}
+{{/if}}
