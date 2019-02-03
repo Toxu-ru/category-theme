@@ -1,0 +1,20 @@
+plugins:
+  num_categories:
+    type: text
+    default: ''
+    client: true
+  num_categories_two:	
+    type: text
+    default: ''
+    client: true	
+  banner_one:
+    type: text
+    default: ''
+    client: true
+  banner_three:
+    type: text
+    default: ''
+    client: true
+  banner_four:
+    default: ''
+    client: true
