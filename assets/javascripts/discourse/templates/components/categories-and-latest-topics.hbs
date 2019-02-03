@@ -1,0 +1,24 @@
+<table width="100%"  class="h-table"> <tr>
+   <td width="27%" valign="top">
+
+		{{mount-widget widget="banner-two"  args=(hash listLoading=loading)}}
+	   
+	   <div class="category-list">{{categories-only-cat categories=categories}}</div> 
+	
+	{{mount-widget widget="banner-three"  args=(hash listLoading=loading)}}   
+
+	</td>
+   		 <td width="50px"> </td> 
+    <td valign="top" width="71%">
+ 
+ 	   <div class="latest-topic-cat"> {{mount-widget widget="link-top"  args=(hash listLoading=loading)}} </div> 
+
+       <div class="h-home">Последние вопросы</div> 
+	   
+	   <div class="latest-topic-list-item ember-view">
+	   
+	   {{latest-topic-list-cat topics=topics}}
+		   
+		</div>  
+    </td>  
+</tr></table>
