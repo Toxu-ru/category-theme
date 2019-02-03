@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    num_categories: "Category number from which the last 5 posts will be displayed"
+    num_categories_two: "Category number for one post with a picture  (sidebar)"
+    banner_one: "Wide top banner in the right column"
+    banner_three: "Second banner under categories (sidebar)"
+    banner_four: "Third banner under categories (sidebar)"	
